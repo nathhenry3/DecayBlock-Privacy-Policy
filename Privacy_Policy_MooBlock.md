@@ -1,46 +1,54 @@
-# MooBlock-Privacy-Policy
-Privacy policy for MooBlock browser extension
+MooBlock Privacy Policy
 
---------------------------------------------------------------------------------
+MooBlock is a browser extension that helps users reduce distraction by applying user-defined friction timeouts and blocking rules.
+1) Information processed by the extension
 
-This Privacy Policy describes how the MooBlock browser extension ("the Extension") collects, uses, and protects your information.
+MooBlock does not collect personal information for transmission to the developer.
 
-**1. Information We Collect**
+To function, MooBlock processes and stores certain data locally in your browser, including:
 
-The MooBlock extension does not collect any personally identifiable information about its users.
+    Your configured site rules (sites you add for friction or permanent block)
 
-The only data the extension collects and stores is non-personally identifiable and is stored locally within your browser's storage. This data is essential for the extension's functionality and includes:
+    Your extension settings (mode, timeout/friction settings, overlay options)
 
-- A list of websites that you have chosen to block or apply a friction-based timeout to.
+    Runtime state (timeout state/history, onboarding state)
 
-- The timeout settings that you have configured.
+    Temporary allow-list entries (short-lived session permissions)
 
-- A timestamped history of friction delays, which is used to calculate the current timeout and number of cows that appear on screen.
+    Visited page URLs/hostnames as needed to determine whether a site matches your configured rules
 
-This information is never transmitted to our servers or any third party.
+    If enabled, limited on-page media/website content handling (e.g., identifying media elements to replace/hide visually)
 
-**2. How We Use Your Information**
+2) How this information is used
 
-The locally stored data is used exclusively to enable the core features of the MooBlock extension:
+This local data is used only to provide MooBlock’s core functionality:
 
-The site list allows the extension to detect when you are trying to visit a website you have flagged and to apply the appropriate action (friction or permanent block).
+    Detect whether a visited site matches your configured rules
 
-Your settings are used to customize the decay algorithm to your preferences.
+    Apply friction countdown or permanent block behavior
 
-The timestamped history of friction delays is used to calculate the current timeout and number of cows that appear on screen.
+    Render optional cow overlay/media replacement effects
 
-**3. Information Sharing**
+    Preserve your settings and state between sessions
 
-Because all data is stored locally in your browser, no user data is shared with any third party. We have no access to your locally stored information.
+3) Data sharing and selling
 
-**4. Data Security**
+    MooBlock does not sell user data.
 
-All data is stored securely using your browser's local storage API, which is protected by the browser's native security features. Since no data is transmitted to an external server, the risks associated with data breaches are minimized.
+    MooBlock does not transfer user data to third parties, except as required by law.
 
-**5. Changes to This Privacy Policy**
+    MooBlock does not use data for advertising, profiling unrelated to MooBlock’s single purpose, creditworthiness, or lending decisions.
 
-We may update this Privacy Policy from time to time. We will notify you of any changes by updating the policy on this page.
+4) Data storage and retention
 
-**6. Contact the Developer**
+Data is stored using browser extension storage on your device (local/session storage).
+You can remove this data at any time by clearing extension data or uninstalling the extension.
+5) Security
 
-If you have any questions or concerns about this Privacy Policy or the extension, please contact me at **decayblock@gmail.com**.
+Because MooBlock operates locally and does not send your extension data to developer servers, exposure risk from server-side breaches is reduced. Data remains subject to browser/device security controls.
+6) Changes to this policy
+
+This policy may be updated from time to time. Updates will be reflected on the published policy page with a revised effective date.
+7) Contact
+
+If you have questions, contact: decayblock@gmail.com
